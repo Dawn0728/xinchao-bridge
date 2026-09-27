@@ -1,0 +1,53 @@
+# ==== 隐私保护：真实数据绝不进仓库 ====
+# 配置文件（只保留 example）
+config/bridge_config.json
+config/habit_clock.json
+*.env
+.env
+.env.*
+
+# 运行时数据
+inbox/
+_seen.txt
+_seen.txt
+seen.txt
+endurance_tally.json
+habit_clock.json
+*信封.log
+*log.log
+popup_consumer.log
+device_state_probe.log
+
+# 忍住档（含情感内容，本地留）
+忍住档.jsonl
+*忍住档*
+
+# 邮箱/邮件类
+mail_*.json
+mail_*.txt
+*邮箱*.log
+mail_seen.txt
+mail_config.json
+
+# 系统与临时
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.cache/
+.pytest_cache/
+.venv/
+venv/
+
+# ==== 白名单保留（只保留 example 与公开代码）====
+!*.example.json
+
+# ==== 心潮桥的公开内容只包括 ====
+# README.md  LICENSE  .gitignore
+# listener/*.py
+# android/*.sh
+# config/*.example.json
+# docs/**
