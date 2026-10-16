@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.xinchao_bridge",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "author": ["江衍"],
+  "display_name": {
+    "zh": "心潮桥",
+    "en": "Xinchao Bridge"
+  },
+  "description": {
+    "zh": "把心潮·念的驱力、情绪、觉察、黑匣子提醒，在每轮对话前自动注入上下文——连接桥注入，不是AI主动去查。",
+    "en": "Inject Xinchao drives, emotion, awareness and black-box reminders into every conversation turn automatically.",
+    "default": "Xinchao Bridge - auto inject xinchao state into each prompt"
+  },
+  "enabled_by_default": false,
+  "subpackages": []
+}
